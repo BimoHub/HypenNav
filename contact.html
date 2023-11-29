@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Contact Me</h1>
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="dropdown">
+        <a href="#" class="dropbtn" >Link Menu</a>   
+        <div class="dropdown-content">
+            <a href="https://bimohub.github.io/batman/" target="_blank" >Batman</a>
+            <a href="https://bimohub.github.io/mobile/" target="_blank" >Pastel</a>
+            <a href="https://bimohub.github.io/">bimohub</a>
+            <a href="https://bimohub.github.io/pizza/" >Pizza</a>
+            <a href="https://github.com/BimoHub">https://github.com/BimoHub</a>
+</div>
+</li>
+    </ul>
+  </nav>
+  <p>Use form to contact me</p>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="10" cols="50" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
